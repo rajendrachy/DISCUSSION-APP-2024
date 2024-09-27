@@ -1,0 +1,88 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+.container {
+    /* background-color: red; */
+    height: 900px;
+}
+
+.container1 {
+    background-color: rgba(0, 128, 111, 0.831);
+    height: auto;
+}
+
+
+.container2 {
+    height: 650px;
+    /* background-color: gold; */
+}
+
+.free {
+    background-color: rgba(0, 128, 81, 0.203);
+    color: rgba(255, 255, 255, 0.616);
+    width: 90px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+h1 {
+
+    margin-left: 20px;
+    color: rgb(166, 238, 144);
+}
+
+
+.container1 p {
+    margin-left: 20px;
+}
+
+.container1 h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button {
+    border: 1px solid rgb(156, 238, 144);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 128, 111, 0.831);
+    color: white;
+}
+
+
+
+/* container 2 design */
+
+.container2 {
+    background-color: rgba(0, 0, 0, 0.301);
+    display: flex;
+    
+    flex-wrap:wrap;
+    height: auto;
+}
+
+.div1 {
+    background-color: rgba(0, 66, 128, 0.427);
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+    
+}
+
